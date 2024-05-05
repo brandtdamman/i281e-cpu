@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "Custom")(type "KiCad")(uri "D:/School/SE491-2/sdmay24-14/kicad/customparts/Custom.pretty")(options "")(descr ""))
+  (lib (name "PB400EEQR1BLK")(type "KiCad")(uri "D:/School/SE491-2/sdmay24-14/kicad/customparts/PB400EEQR1BLK")(options "")(descr ""))
+  (lib (name "Imported")(type "KiCad")(uri "${KIPRJMOD}/imports/Imported.pretty")(options "")(descr ""))
+  (lib (name "Graphics")(type "KiCad")(uri "${KIPRJMOD}/imports/Graphics.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "8bits")(type "KiCad")(uri "${KIPRJMOD}/8bits_kicad_libraries-master/8bits.kicad_sym")(options "")(descr ""))
+  (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/Custom/Custom.kicad_sym")(options "")(descr ""))
+)

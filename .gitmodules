@@ -1,0 +1,3 @@
+[submodule "software/i281-dev"]
+	path = software/i281-dev
+	url = https://github.com/tergav17/i281-dev

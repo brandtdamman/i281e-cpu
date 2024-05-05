@@ -1,0 +1,113 @@
+
+(rules PCB i281_mainboard
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 178)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clearance 200.2)
+    (clearance 0.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.2 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    /0B0 /0B1 /0B2 /0B3 /0B4 /0B5 /0B6 /0B7
+    /1B0 /1B1 /1B2 /1B3 /1B4 /1B5 /1B6 /1B7
+    /2B0 /2B1 /2B2 /2B3 /2B4 /2B5 /2B6 /2B7
+    /3B0 /3B1 /3B2 /3B3 /3B4 /3B5 /3B6 /3B7
+    /4B0 /4B1 /4B2 /4B3 /4B4 /4B5 /4B6 /4B7
+    /5B0 /5B1 /5B2 /5B3 /5B4 /5B5 /5B6 /5B7
+    /6B0 /6B1 /6B2 /6B3 /8B0 /8B1 /8B2 /8B3
+    /8B4 /8B5 /8B6 /8B7 /9B0 /9B1 /9B2 /9B3
+    /9B4 /9B5 /9B6 /9B7 /10B0 /10B1 /10B2 /10B3
+    /10B4 /10B5 /10B6 /10B7 /11B0 /11B1 /11B2 /11B3
+    /11B4 /11B5 /11B6 /11B7 /12B0 /12B1 /12B2 /12B3
+    /12B4 /12B5 /12B6 /12B7 /13B0 /13B1 /13B2 /13B3
+    /13B4 /13B5 /13B6 /13B7 /14B0 /14B1 /14B2 /14B3
+    /14B4 /14B5 /14B6 /14B7 /7B0 /7B1 /7B2 /7B3
+    /7B4 /7B5 /7B6 /7B7 "Net-(C1-Pad1)" /SW +12V "Net-(C4-Pad1)"
+    "Net-(C5-Pad1)" "Net-(C5-Pad2)" "Net-(C6-Pad1)" /C0 /C1 /C2 /C3 /C4
+    /C5 /C6 /C7 /C8 /C9 /C10 /C11 /C12
+    /C13 /C14 /C15 /C16 /C17 /C18 /C19 /C20
+    /C21 /C22 /C23 "Net-(D1-Pad1)" "Net-(D1-Pad2)" "Net-(D2-Pad1)" "Net-(F1-Pad2)" /CLK
+    /RST /EXTERN /*GAME "Net-(J43-Pad3)" "Net-(J43-Pad4)" "Net-(J43-Pad5)" "Net-(J43-Pad6)" "Net-(J43-Pad7)"
+    "Net-(J43-Pad8)" "Net-(J43-Pad9)" "Net-(J43-Pad10)" "unconnected-(J43-Pad21)" /*WR /*RD "unconnected-(J43-Pad27)" "unconnected-(J43-Pad28)"
+    "unconnected-(J43-Pad29)" "unconnected-(J43-Pad31)" "unconnected-(J43-Pad32)" /CFA0 "unconnected-(J43-Pad34)" /CFA1 /CFA2 "/*CF_SEL"
+    "Net-(J43-Pad38)" "Net-(J43-Pad11)" /EN /FB "unconnected-(SW1-Pad3)" "unconnected-(SW1-Pad4)" "Net-(J43-Pad12)" "Net-(J43-Pad13)"
+    "Net-(J43-Pad14)" "Net-(J43-Pad15)" "Net-(J43-Pad16)" "Net-(J43-Pad17)" "Net-(J43-Pad18)" "Net-(J43-Pad23)" "Net-(J43-Pad25)" "Net-(J43-Pad37)"
+    /CFB7 /CFB6 /CFB5 /CFB4 /CFB3 /CFB2 /CFB1 /CFB0
+    "Net-(U2-Pad1)" "unconnected-(U3-Pad6)" "unconnected-(U3-Pad8)" "unconnected-(U3-Pad11)" "Net-(J43-Pad33)" "Net-(J43-Pad35)" "Net-(J43-Pad36)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class pwr
+    GND +5V
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

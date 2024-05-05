@@ -1,0 +1,24 @@
+Name		Hex/Game 7-Segment Decoder ;
+PartNo		ATF16v8 ;
+Date		2023/11/27 ;
+Revision	01 ;
+Designer	Gavin Tersteeg ;
+Company	SD24-14 ;
+Assembly	None ;
+Location	;
+Device		g16v8 ;
+
+/* Input Pins */
+
+PIN     2 = D0 ;
+PIN     3 = D1 ;
+PIN     4 = D2 ;
+PIN     5 = D3 ;
+PIN     6 = D4 ;
+PIN     7 = D5 ;
+PIN     8 = D6 ;
+PIN     9 = D7 ;
+PIN     11 = GAME ;
+
+/* Output Pins */
+

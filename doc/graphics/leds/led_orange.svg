@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="204.00832mm"
+   height="174.00832mm"
+   viewBox="0 0 204.00832 174.00832"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="led_orange.svg"
+   inkscape:export-filename="C:\Users\Daryl Damman\OneDrive - Iowa State University\EE491\stoytchev's binder\images\leds\led_orange.png"
+   inkscape:export-xdpi="63.788902"
+   inkscape:export-ydpi="63.788902"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="448.3057"
+     inkscape:cy="366.28131"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g44957"
+     fit-margin-top="12"
+     fit-margin-left="12"
+     fit-margin-right="12"
+     fit-margin-bottom="12"
+     showguides="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.8673992,8.4999003)">
+    <g
+       id="g44957"
+       transform="translate(106.49429,6.5560302)">
+      <path
+         style="fill:none;stroke:#808080;stroke-width:3.27099;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:12;stroke-dasharray:none;stroke-opacity:1"
+         d="m -16.247854,146.95239 7e-6,-87.614298 H 13.00238 l 10e-6,87.614298"
+         id="path965"
+         sodipodi:nodetypes="cccc" />
+      <path
+         id="path42769"
+         style="fill:#ff7918;fill-opacity:1;stroke:#000000;stroke-width:3.60082;stroke-linecap:round;stroke-linejoin:round"
+         d="m -1.44755,19.23964 a 26.617102,59.599361 0 0 0 -26.005131,46.98783 h -6.157764 V 76.70435 H 30.36498 V 66.22747 H 24.56016 A 26.617102,59.599361 0 0 0 -1.44755,19.23964 Z" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:12;stroke-dasharray:none"
+         id="rect4783"
+         width="176.00832"
+         height="146.00832"
+         x="-89.626892"
+         y="-1.0559305" />
+    </g>
+  </g>
+</svg>
