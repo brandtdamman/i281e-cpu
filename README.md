@@ -51,7 +51,7 @@ The original i281 CPU design was developed under the MIT License by Kyung-Tae J.
 
 ## Licensing
 
-Hardware, including printed circuit board designs, CAD files, and relevant files, is licensed under [CERN-OHL-P v2](https:/cern.ch/cern-ohl).
+Hardware, including printed circuit board designs, CAD files, and relevant files, is licensed under [CERN-OHL-P v2](https://cern.ch/cern-ohl).
 
 Logo and relevant components are restricted for use by the i281e Development Group (see [Branding License and Terms](branding/LICENSE)).
 
